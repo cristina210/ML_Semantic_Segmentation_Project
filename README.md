@@ -20,12 +20,12 @@ GTA5: Synthetic dataset generated from the Grand Theft Auto V game.
 
 ## Loss functions and optimizer
 Loss functions:
-- **Segmentation Loss:** CrossEntropyLoss (ignoring index 255 for unlabeled pixels)
-- **Adversarial Loss:** BCEWithLogitsLoss for domain adaptation
+- Segmentation Loss: **CrossEntropyLoss** 
+- Adversarial Loss: **BCEWithLogitsLoss** for domain adaptation
 
 Optimizers:
-- **Segmentation model:** SGD with momentum and weight_decay
-- **Discriminator (adversarial):** Adam 
+- Segmentation model: **SGD** with momentum and weight_decay
+- Discriminator (adversarial): **Adam optimizer** 
 
 Optional extension:
 - Use Adam optimizer for the segmentation model 
@@ -34,8 +34,9 @@ Optional extension:
 ## Goal
 step2a and step2b: Comparison between two architectures, DeepLabV2 and BiSeNet in terms of accuracy and computational times (FLOP and latency).
 step3a3b: Analysis of Bisenet performance in domain shift and usage of data augmentation
-step4_5:  Analysis of Bisenet performance in domain shift with an adversarial domain adaptation approach and 
-studyng the effect of using as loss function for the segmentation model a Focal loss and as optimizer Adam optimizer.
+step4_5:  
+- Analysis of Bisenet performance in domain shift with an adversarial domain adaptation approach
+- Studying the effect of using as loss function for the segmentation model a Focal loss and as optimizer Adam optimizer.
 
 # Main libraries
 numpy
