@@ -36,6 +36,6 @@ Optimizers:
 
 ## Main libraries
 numpy, matplotlib, Pillow
-## PyTorch
+### PyTorch
 torch, torchvision
 
