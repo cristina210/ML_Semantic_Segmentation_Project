@@ -34,8 +34,8 @@ step4_5:
 - Analysis of Bisenet performance in domain shift with an adversarial domain adaptation approach
 - Studying the effect of using as loss function for the segmentation model a Focal loss and as optimizer Adam optimizer.
 
-# Main libraries
+## Main libraries
 numpy, matplotlib, Pillow
-# PyTorch
+## PyTorch
 torch, torchvision
 
