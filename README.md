@@ -39,10 +39,7 @@ step4_5:
 - Studying the effect of using as loss function for the segmentation model a Focal loss and as optimizer Adam optimizer.
 
 # Main libraries
-numpy
-matplotlib
-Pillow
+numpy, matplotlib, Pillow
 # PyTorch
-torch
-torchvision
+torch, torchvision
 
