@@ -9,10 +9,10 @@ analyzing performance metrics including mean Intersection-over-Union (mIoU). Fur
 an adversarial domain adaptation techniques to improve generalization across domains with Bisenet architecture.
 
 ## Dataset
-Cityscapes: Real-world urban scene images with pixel-level annotations.
+Cityscapes: Real-world urban scene images.
 https://www.cityscapes-dataset.com/
 
-GTA5: Synthetic dataset generated from the Grand Theft Auto V game.
+GTA5: Synthetic dataset generated from the GTA5 game.
 
 ## Architectures
 **BiSeNet** architecture for real-time semantic segmentation with a pre-trained **ResNet18** backbone.
