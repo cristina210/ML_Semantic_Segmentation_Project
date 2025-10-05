@@ -28,9 +28,9 @@ Optimizers:
 - Discriminator (adversarial): **Adam optimizer** 
 
 ## Goal
--step2a and step2b: Comparison between two architectures, DeepLabV2 and BiSeNet in terms of accuracy and computational times (FLOP and latency).
--step3a3b: Analysis of Bisenet performance in domain shift and usage of data augmentation
--step4_5:  
+- step2a and step2b: Comparison between two architectures, DeepLabV2 and BiSeNet in terms of accuracy and computational times (FLOP and latency).
+- step3a3b: Analysis of Bisenet performance in domain shift and usage of data augmentation
+- step4_5:  
   - Analysis of Bisenet performance in domain shift with an adversarial domain adaptation approach
   - Studying the effect of using as loss function for the segmentation model a Focal loss and as optimizer Adam optimizer.
 
