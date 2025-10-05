@@ -27,10 +27,6 @@ Optimizers:
 - Segmentation model: **SGD** with momentum and weight_decay
 - Discriminator (adversarial): **Adam optimizer** 
 
-Optional extension:
-- Use Adam optimizer for the segmentation model 
-- Experiment with Focal Loss as an alternative to CrossEntropy
-
 ## Goal
 step2a and step2b: Comparison between two architectures, DeepLabV2 and BiSeNet in terms of accuracy and computational times (FLOP and latency).
 step3a3b: Analysis of Bisenet performance in domain shift and usage of data augmentation
