@@ -4,9 +4,9 @@ by the domain gap between synthetic and real-world datasets.
 Training semantic segmentation models typically requires large-scale annotated datasets, which are expensive 
 and time-consuming to produce. Synthetic datasets, such as GTA5, offer a cost-effective alternative,
 but models trained on synthetic data often underperform on real images like those in Cityscapes.
-We evaluate two representative architectures, DeepLabV2 and BiSeNet, on both synthetic and real datasets, 
-analyzing performance metrics including mean Intersection-over-Union (mIoU). Furthermore, we explore data augmentation and 
-an adversarial domain adaptation techniques to improve generalization across domains with Bisenet architecture.
+We evaluate two representative architectures, DeepLabV2 and BiSeNet, on Cityscapes dataset, 
+analyzing performance metrics including mean Intersection-over-Union (mIoU). Furthermore, we evaluate Bisenet's performance on domain shift between GTA5 dataset and Cityscapes dataset. 
+We then explore data augmentation and an adversarial domain adaptation techniques to improve generalization across domains with Bisenet architecture.
 
 ## Dataset
 Cityscapes: Real-world urban scene images.
